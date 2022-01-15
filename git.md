@@ -11,7 +11,7 @@ $ cp id_rsa* key_backup
 $ rm id_rsa*
 # Deletes the id_rsa keypair
 
-ssh-keygen -t rsa -b 4096 -C "ronilson.stos@gmail.com"
+ssh-keygen -t rsa -b 4096 -C " "
 ssh-keygen -t rsa -C "your_email@youremail.com"
 ssh -T git@github.com
 
